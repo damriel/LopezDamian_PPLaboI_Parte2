@@ -294,3 +294,45 @@ int listarClientesDeUnaLocalidad(eCliente aClientes[], int tamCli, eLocalidad aL
 
     return retorno;
 }
+
+int mostrarLocalidadConMasClientes(eCliente aClientes[], int tamCli, eLocalidad aLocalidades[], int tamLoc)
+{
+    int retorno=0;
+    int arrayContador[tamLoc];
+    int maximo;
+    if(aClientes!=NULL && tamCli>0 && aLocalidades!=NULL && tamLoc>0)
+    {
+        retorno=1;
+        for(int i=0; i<tamLoc; i++)
+        {
+            arrayContador[i]=0;
+            for(int j=0; j<tamCli; j++)
+            {
+                if(aClientes[j].idLocalidad==aLocalidades[i].id)
+                {
+                    arrayContador[i]++;
+                }
+            }
+        }
+        maximo=arrayContador[0];
+        for(int i=0; i<tamLoc; i++)
+        {
+            if(maximo<arrayContador[i])
+            {
+                maximo=arrayContador[i];
+            }
+        }
+
+        printf("Localidades con mas clientes: \n");
+        for(int i=0; i<tamLoc; i++)
+        {
+            if(arrayContador[i]==maximo)
+            {
+                printf("%s\n", aLocalidades[i].descripcion);
+            }
+        }
+
+    }
+
+    return retorno;
+}

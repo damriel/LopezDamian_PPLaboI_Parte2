@@ -110,3 +110,5 @@ int ordenarClientesPorApellidoYNombre(eCliente aClientes[], int tamCli);
 int cargarNombreApellidoPorCodigo(int codBuscado, eCliente aClientes[], int tamCli, char nombre[], char apellido[]);
 
 int listarClientesDeUnaLocalidad(eCliente aClientes[], int tamCli, eLocalidad aLocalidades[], int tamLoc);
+
+int mostrarLocalidadConMasClientes(eCliente aClientes[], int tamCli, eLocalidad aLocalidades[], int tamLoc);

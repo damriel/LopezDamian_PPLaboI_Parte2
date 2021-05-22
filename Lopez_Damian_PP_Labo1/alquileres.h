@@ -120,25 +120,3 @@ int listarJuegosAlquiladosPorMujeres(eAlquiler aAlquileres[], int tamAlq, eClien
 int juegosMasAlquiladosPorHombres(eAlquiler aAlquileres[], int tamAlq, eCliente aClientes[], int tamCli, eJuego aJuegos[], int tamJue, eCategoria aCategorias[], int tamCat);
 
 int clientesQueAlquilaronJuegoEspecifico(eAlquiler aAlquileres[], int tamAlq, eCliente aClientes[], int tamCli, eJuego aJuegos[], int tamJue, eCategoria aCategorias[], int tamCat, eLocalidad aLocalidades[], int tamLoc);
-
-/**
-int cantidadAlquileresDeJuego(eAlquiler aAlquileres[], int tamAlq, eJuego aJuegos[], int tamJue, eCategoria aCategorias[], int tamCat);
-
-int detallesAlquilerDeJuego(eAlquiler aAlquileres[], int tamAlq, eCliente aClientes[], int tamCli, eJuego aJuegos[], int tamJue, eCategoria aCategorias[], int tamCat);
-
-int detallesAlquilerDeCliente(eAlquiler aAlquileres[], int tamAlq, eCliente aClientes[], int tamCli, eJuego aJuegos[], int tamJue, eCategoria aCategorias[], int tamCat);
-
-int mostrarAlquileresPorFecha(eAlquiler aAlquileres[], int tamAlq, eCliente aClientes[], int tamCli, eJuego aJuegos[], int tamJue, eCategoria aCategorias[], int tamCat);
-
-int mostrarCantidadAlquileres(eAlquiler aAlquileres[], int tamAlq, eCliente aClientes[], int tamCli);
-
-int juegosMasAlquilados(eAlquiler aAlquileres[], int tamAlq, eJuego aJuegos[], int tamJue);
-
-int categoriasJuegosMasAlquilados(eAlquiler aAlquileres[], int tamAlq, eJuego aJuegos[], int tamJue, eCategoria aCategorias[], int tamCat);
-
-int sumatoriaAlquileresPorCategoria(eAlquiler aAlquileres[], int tamAlq, eJuego aJuegos[], int tamJue, eCategoria aCategorias[], int tamCat);
-
-int sumatoriaAlquileresPorCliente(eAlquiler aAlquileres[], int tamAlq, eJuego aJuegos[], int tamJue, eCliente aClientes[], int tamCli);
-
-int sumatoriaTotalAlquileres(eAlquiler aAlquileres[], int tamAlq, eJuego aJuegos[], int tamJue);
-*/

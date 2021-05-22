@@ -51,24 +51,11 @@ int menuOpciones()
     printf("15) Listar los juegos alquilados por mujeres.\n");
     printf("16) Mostrar el o los juegos mas alquilados por hombres.\n");
     printf("17) Listar los clientes que alquilaron un determinado juego.\n");
-    printf("18) .\n");
+    printf("18) Mostrar la recaudación de una fecha en particular.\n");
     printf("19) Listar los clientes de una localidad determinada.\n");
-    /**
-    printf("10) Mostrar juegos de una categoria determinada.\n");
-    printf("11) Mostrar listado de juegos separados por categoria.\n");
-    printf("12) Mostrar cuantas veces se alquilo un juego determinado.\n");
-    printf("13) Pedir un juego y mostrar los detalles de todos sus alquileres (tambien calcular importe total).\n");
-    printf("14) Pedir un cliente y mostrar los detalles de todos sus alquileres (tambien calcular importe total).\n");
-    printf("15) Pedir una fecha y mostrar los alquileres realizados en la misma.\n");
-    printf("16) Mostrar cantidad de alquileres de un cliente determinado.\n");
-    printf("17) Mostrar el/los juego/s mas alquilado/s.\n");
-    printf("18) Categoria de Juegos mas alquilados.\n");
-    printf("19) Sumatoria de alquileres por categoria.\n");
-    printf("20) Sumatoria de alquileres por cliente.\n");
-    printf("21) Sumatoria total de alquileres.\n");
-    */
-    printf("25) Salir.\n");
-    if(dam_getNumero(&retorno, "Ingrese una opcion: ","ERROR, opcion invalida.\n",1,25,10)==-1)
+    printf("20) Mostrar localidad/es con mas clientes.\n");
+    printf("21) Salir.\n");
+    if(dam_getNumero(&retorno, "Ingrese una opcion: ","ERROR, opcion invalida.\n",1,21,10)==-1)
     {
         retorno=-1;
     }

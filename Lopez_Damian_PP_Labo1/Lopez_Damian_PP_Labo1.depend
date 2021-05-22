@@ -86,3 +86,90 @@
 	<string.h>
 	"localidad.h"
 
+1621644774 source:c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dam.h"
+	"alquileres.h"
+	"cliente.h"
+	"juego.h"
+	"categoria.h"
+	"localidad.h"
+
+1621033826 c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\dam.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1621644787 c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\alquileres.h
+	"fecha.h"
+	"cliente.h"
+	"juego.h"
+	"categoria.h"
+
+1621029972 c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\fecha.h
+
+1621644646 c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\cliente.h
+	"localidad.h"
+
+1621634484 c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\localidad.h
+
+1621636623 c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\juego.h
+	"categoria.h"
+
+1621631260 c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\categoria.h
+
+1621549661 source:c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\categoria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"categoria.h"
+
+1621644743 source:c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\dam.c
+	"dam.h"
+
+1621639008 source:c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\datawarehouse.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dataWarehouse.h"
+
+1621635098 c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\datawarehouse.h
+	"juego.h"
+	"categoria.h"
+	"cliente.h"
+	"alquileres.h"
+	"localidad.h"
+
+1621636688 source:c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\juego.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juego.h"
+	"categoria.h"
+	"dam.h"
+
+1621634671 source:c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\localidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"localidad.h"
+
+1621644705 source:c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dam.h"
+	"dataWarehouse.h"
+	"cliente.h"
+	"alquileres.h"
+
+1621644635 source:c:\users\usuario\documents\programacion 2021\parciales laboratorio 1\lopezdamian_pplaboi_parte2\lopez_damian_pp_labo1\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"dam.h"
+

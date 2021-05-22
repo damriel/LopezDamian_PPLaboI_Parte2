@@ -144,7 +144,11 @@ int main()
             listarClientesDeUnaLocalidad(clientes,TAMCLI,localidades,TAMLOC);
             system("pause");
             break;
-        case 25:
+        case 20:
+            mostrarLocalidadConMasClientes(clientes,TAMCLI,localidades,TAMLOC);
+            system("pause");
+            break;
+        case 21:
             dam_getCaracter(&exitConfirm,"Seguro desea salir (s/n)?: ","Error. ",'s','n',10);
             break;
         }
